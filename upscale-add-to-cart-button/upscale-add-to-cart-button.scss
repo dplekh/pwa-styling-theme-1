@@ -13,10 +13,9 @@
 
   &.text-button {
     color: #fff;
-    background-color: #54457F;
+    background-color: #54457F!important;
+    font-size: 20px!important;
   }
-
-
 
   &.browse-add-to-cart-button {
     color: #fff;
@@ -46,22 +45,8 @@
 
     &.text-button {
       height: 45px;
+      width: 125px;
     }
   }
 }
 
-.upscale-medium {
-  :host {
-    &.icon-button {
-      $size: 55px;
-      height: $size;
-      width: $size;
-      max-width: $size;
-      max-height: $size;
-    }
-    &.text-button {
-      height: 55px;
-      padding: 0 24px;
-    }
-  }
-}
