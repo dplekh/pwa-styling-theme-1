@@ -1,0 +1,15 @@
+@import '~styles/helpers/_module';
+
+$space-between: 10px;
+
+:host {
+  nav {
+    ul {
+      li {
+        a {
+          @include medium-font-size;
+        }
+      }
+    }
+  }
+}

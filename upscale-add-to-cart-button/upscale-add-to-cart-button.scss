@@ -1,0 +1,67 @@
+
+:host {
+
+  &:hover {
+    &.icon-button {
+      filter: brightness(110%);
+    }
+
+    &.text-button {
+      filter: brightness(110%);
+    }
+  }
+
+  &.text-button {
+    color: #fff;
+    background-color: #54457F;
+  }
+
+
+
+  &.browse-add-to-cart-button {
+    color: #fff;
+    background-color: #397367;
+  }
+
+  &.button {
+    color: #fff;
+    background-color: #D7263D;
+  }
+
+}
+
+
+.upscale-extra-small,
+.upscale-small,
+.upscale-large,
+.upscale-extra-large {
+  :host {
+    &.icon-button {
+      $size: 45px;
+      max-height: $size;
+      height: $size;
+      max-width: $size;
+      width: $size;
+    }
+
+    &.text-button {
+      height: 45px;
+    }
+  }
+}
+
+.upscale-medium {
+  :host {
+    &.icon-button {
+      $size: 55px;
+      height: $size;
+      width: $size;
+      max-width: $size;
+      max-height: $size;
+    }
+    &.text-button {
+      height: 55px;
+      padding: 0 24px;
+    }
+  }
+}
